@@ -1,0 +1,79 @@
+.bgyes{
+  background-color: #FF8C73
+}
+.overlay-1{
+font-family: Maison Neue;
+src: url(fonts/maisonneuebold.ttf);
+font-size: 40px;
+color: #010101;
+margin-right: 140px;
+margin-left: 50px;
+}
+.overlay-2{
+font-family: Maison Neue;
+src: url(fonts/maisonneuebold.ttf);
+font-size: 20px;
+color: #010101;
+padding-right: 0px;
+padding-bottom: 1000px;
+padding-left: 1000px;
+transform: rotate(-90deg);
+position: absolute;
+left: 0px;
+top: 300px;
+bottom: 300px;
+right: 100px;
+}
+
+.pushover{
+  margin-left: 800px;
+  font-size: 18px;
+  position: relative;
+
+}
+.hover-line-one{
+  border-left: 20px solid black;
+  height: 80px;
+  position: fixed;
+}
+.hover-line-two{
+  border-left: 20px solid black;
+  height: 80px;
+  position: fixed;
+  top: 300px;
+}
+
+a{
+  color: inherit;
+  
+}
+
+/*alts*/
+
+.hover-line-one-alt{
+  border-left: 20px solid #FF8C73;
+  height: 80px;
+  position: fixed;
+}
+.hover-line-two-alt{
+  border-left: 20px solid #FF8C73;
+  height: 80px;
+  position: fixed;
+  top: 300px;
+}
+
+.overlay-2alt{
+font-family: Maison Neue;
+src: url(fonts/maisonneuebold.ttf);
+font-size: 20px;
+color: #FF8C73;
+padding-right: 0px;
+padding-bottom: 1000px;
+padding-left: 1000px;
+transform: rotate(-90deg);
+position: fixed;
+left: 0px;
+top: 300px;
+bottom: 300px;
+right: 100px;
+}
