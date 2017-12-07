@@ -1,3 +1,21 @@
+.main{
+  z-index: 2;
+  position: relative;
+}
+.sticker{
+  z-index: 3;
+  opacity: .6;
+  min-width: 100vw;
+  min-height: 100vh;
+  max-width: 400vw;
+  max-height: 400vh;
+  top: 200px;
+  left: 200px;
+  pointer-events: none;
+  align-items: center;
+  position: fixed;
+
+}
 .bgyes{
   background-color: #FF8C73
 }
@@ -40,12 +58,18 @@ right: 100px;
   border-left: 20px solid black;
   height: 80px;
   position: fixed;
-  top: 300px;
+  top: 200px;
+}
+.hover-line-three{
+  border-left: 20px solid black;
+  height: 80px;
+  position: fixed;
+  top: 315px;
 }
 
 a{
   color: inherit;
-  
+
 }
 
 /*alts*/
@@ -59,7 +83,13 @@ a{
   border-left: 20px solid #FF8C73;
   height: 80px;
   position: fixed;
-  top: 300px;
+  top: 200px;
+}
+.hover-line-three-alt{
+  border-left: 20px solid #FF8C73;
+  height: 80px;
+  position: fixed;
+  top: 315px;
 }
 
 .overlay-2alt{
