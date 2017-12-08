@@ -20,7 +20,7 @@
   background-color: #FF8C73
 }
 .overlay-1{
-font-family: Maison, Helvetica;
+font-family: maisonneuebold.ttf;
 src: url(..fonts/maisonneuebold.ttf);
 font-size: 40px;
 color: #010101;
@@ -28,7 +28,7 @@ margin-right: 140px;
 margin-left: 50px;
 }
 .overlay-2{
-font-family: Maison, Helvetica;
+font-family: Maison;
 src: url(..fonts/maisonneuebold.ttf);
 font-size: 20px;
 color: #010101;
