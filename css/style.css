@@ -20,8 +20,8 @@
   background-color: #FF8C73
 }
 .overlay-1{
-font-family: Maison Neue;
-src: url(fonts/maisonneuebold.ttf);
+font-family: Maison Neue Bold;
+src: url(..fonts/maisonneuebold.ttf);
 font-size: 40px;
 color: #010101;
 margin-right: 140px;
@@ -29,7 +29,7 @@ margin-left: 50px;
 }
 .overlay-2{
 font-family: Maison Neue;
-src: url(fonts/maisonneuebold.ttf);
+src: url(..fonts/maisonneuebold.ttf);
 font-size: 20px;
 color: #010101;
 padding-right: 0px;
