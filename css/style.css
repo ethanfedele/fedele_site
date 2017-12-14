@@ -23,7 +23,7 @@ src: url('maisonneuebold.ttf')
 
 }
 .bgyes{
-  background-color: #FF8C73
+  background-color: #FF5E43
 }
 .overlay-1{
 font-family: Maison Neue;
@@ -79,24 +79,23 @@ a{
 }
 a:hover{
   color: #ffffff;
-  border-left: 20px solid #ffffff;
 }
 
 /*alts*/
 
 .hover-line-one-alt{
-  border-left: 20px solid #FF8C73;
+  border-left: 20px solid #FF5E43;
   height: 80px;
   position: fixed;
 }
 .hover-line-two-alt{
-  border-left: 20px solid #FF8C73;
+  border-left: 20px solid #FF5E43;
   height: 80px;
   position: fixed;
   top: 200px;
 }
 .hover-line-three-alt{
-  border-left: 20px solid #FF8C73;
+  border-left: 20px solid #FF5E43;
   height: 80px;
   position: fixed;
   top: 315px;
@@ -105,7 +104,7 @@ a:hover{
 font-family: Maison Neue;
 src: url(fonts/maisonneuebold.ttf);
 font-size: 20px;
-color: #FF8C73;
+color: #000000;
 padding-right: 0px;
 padding-bottom: 1000px;
 padding-left: 1000px;
