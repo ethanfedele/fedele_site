@@ -116,3 +116,23 @@ top: 300px;
 bottom: 300px;
 right: 100px;
 }
+
+@media (max-width: 750px) {
+  .overlay-1{
+  font-family: "Maison Neue", "helvetica";
+  /*src: url(fonts/maisonneuemono.ttf);*/
+  font-size: 54px;
+  color: #010101;
+  margin-right: 140px;
+  margin-left: 50px;
+  }
+  .pushover{
+    margin-left: 800px;
+    font-size: 34px;
+    line-height: 68px;
+    position: relative;
+
+  }
+
+
+}
