@@ -78,7 +78,8 @@ a{
 
 }
 a:hover{
-  color: #ffffff
+  color: #ffffff;
+  border-left: 20px solid #ffffff;
 }
 
 /*alts*/
