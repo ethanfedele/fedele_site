@@ -27,7 +27,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   background-color: #FF5E43
 }
 .overlay-1{
-font-family: "Maison Neue", "helvetica bold";
+font-family: "Maison Neue", "helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 40px;
 color: #010101;
@@ -35,7 +35,7 @@ margin-right: 140px;
 margin-left: 50px;
 }
 .overlay-2{
-font-family: "Maison Neue", "helvetica bold";
+font-family: "Maison Neue", "helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
 color: #010101;
@@ -102,7 +102,7 @@ a:hover{
   top: 315px;
 }
 .overlay-2alt{
-font-family: "Maison Neue", "helvetica bold";
+font-family: "Maison Neue", "helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
 color: #000000;
