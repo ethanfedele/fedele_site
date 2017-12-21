@@ -27,17 +27,19 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   background-color: #ffffff;
 }
 .overlay-1{
-font-family: "Maison Neue", "helvetica";
+font-family:"helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 40px;
+font-weight: bold;
 color: #010101;
 margin-right: 140px;
 margin-left: 50px;
 }
 .overlay-2{
-font-family: "Maison Neue", "helvetica";
+font-family:"helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
+font-weight: bold;
 color: #010101;
 padding-right: 0px;
 padding-bottom: 1000px;
@@ -85,26 +87,33 @@ a:hover{
 /*alts*/
 
 .hover-line-one-alt{
-  border-left: 20px solid #FF5E43;
+  border-left: 20px solid #ffffff;
   height: 80px;
+  font-family: "helvetica";
+  font-weight: bold;
   position: fixed;
 }
 .hover-line-two-alt{
-  border-left: 20px solid #FF5E43;
+  border-left: 20px solid #ffffff;
   height: 80px;
+  font-family: "helvetica";
+  font-weight: bold;
   position: fixed;
   top: 200px;
 }
 .hover-line-three-alt{
-  border-left: 20px solid #FF5E43;
+  border-left: 20px solid #ffffff;
   height: 80px;
+  font-family: "helvetica";
+  font-weight: bold;
   position: fixed;
   top: 315px;
 }
 .overlay-2alt{
-font-family: "Maison Neue", "helvetica";
+font-family: "helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
+font-weight: bold;
 color: #000000;
 padding-right: 0px;
 padding-bottom: 1000px;
@@ -119,9 +128,10 @@ right: 100px;
 
 @media (max-width: 750px) {
   .overlay-1{
-  font-family: "Maison Neue", "helvetica";
+  font-family: "helvetica";
   /*src: url(fonts/maisonneuemono.ttf);*/
   font-size: 54px;
+  font-weight: bold;
   color: #010101;
   margin-right: 140px;
   margin-left: 50px;
