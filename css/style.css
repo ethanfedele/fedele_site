@@ -110,96 +110,60 @@ a:hover{
   left: inherit;
 }
 
-@media screen and (max-width: 750px) {
-
-  .main{
-    z-index: 2;
-    letter-spacing: .2px;
-
-  }
-  .sticker{
-    z-index: 3;
-    opacity: .6;
-    min-width: 100vw;
-    min-height: 100vh;
-    max-width: 400vw;
-    max-height: 400vh;
-    top: 200px;
-    left: 200px;
-    pointer-events: none;
-    align-items: center;
-    position: fixed;
-
-  }
-  .bgyes{
-    background-color: #ffffff;
-  }
-  .overlay-1{
-  font-family:"helvetica";
-  /*src: url(fonts/maisonneuemono.ttf);*/
-  font-size: 80px;
-  font-weight: normal;
-  color: #010101;
-  margin-right: 0px;
-  margin-left: 50px;
-  margin-top: 25px;
-  }
-  .overlay-2{
-  font-family:"helvetica";
-  /*src: url(fonts/maisonneuemono.ttf);*/
-  font-size: 20px;
-  font-weight: bold;
-  color: #010101;
-  padding-right: 0px;
-  padding-bottom: 1000px;
-  padding-left: 300px;
-  /* transform: rotate(-90deg); */
-  position: fixed;
-  left: 0px;
-  top: 100px;
-  bottom: 500px;
-  right: 1200px;
-  }
+@media screen and (max-width: 700px) {
 
   .pushover{
     margin-left: 0px;
-    font-size: 14px;
-    position: relative;
+    margin-right: 20px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    top: 400px;
 
   }
   .pushover2{
-    margin-left: 900px;
-    font-size: 14px;
-    position: relative;
-    letter-spacing: .2px;
+    margin-left: 0px;
+    margin-right: 20px;
+    max-width: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    top: 350px;
+  }
+  .overlay-1{
+    font-size: 30px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  .titlebounds{
+    padding-bottom: 10px;
+  }
+  .sticker{
+    top: 400px;
+    left: 10px;
+    width: 10px;
+    font-size: 18px;
 
   }
   .hover-line-one{
-    width: 70px;
-    height: 10px;
-    border: 2px solid black;
-    border-bottom: 10px solid black;
-    position: absolute;
-    left: 60px;
+    width: 280px;
+    height: 40px;
+    left: 30px;
+    top: 100px;
+    border-bottom: 40px solid black;
   }
   .hover-line-two{
-    width: 70px;
-    height: 20px;
-    border: 2px solid black;
-    border-bottom: 2px solid black;
-    position: absolute;
-    left: 144px;
+    width: 280px;
+    height: 80px;
+    left: 30px;
+    top: 210px;
   }
   .hover-line-three{
-    width: 70px;
-    height: 0px;
-    border: 2px solid black;
-    border-bottom: 20px solid black;
-    position: absolute;
-    left: 228px;
+    width: 280px;
+    height: 00px;
+    left: 30px;
+    top: 320px;
+    border-bottom: 80px solid black;
   }
-
-  .imagerules{
-    margin-top: 40px;
-    margin-left: 50px;
-  }
+}
