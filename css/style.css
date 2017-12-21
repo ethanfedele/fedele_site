@@ -147,23 +147,28 @@ a:hover{
 
   }
   .hover-line-one{
-    width: 280px;
-    height: 40px;
+    width: 140px;
+    height: 20px;
     left: 30px;
-    top: 100px;
-    border-bottom: 40px solid black;
+    top: 150px;
+    border: 4px solid black;
+    border-bottom: 20px solid black;
   }
   .hover-line-two{
-    width: 280px;
-    height: 80px;
+    width: 140px;
+    height: 40px;
     left: 30px;
-    top: 210px;
+    top: 250px;
+    border: 4px solid black;
+
   }
   .hover-line-three{
-    width: 280px;
+    width: 140px;
     height: 00px;
     left: 30px;
-    top: 320px;
-    border-bottom: 80px solid black;
+    top: 360px;
+    border: 4px solid black;
+
+    border-bottom: 40px solid black;
   }
 }
