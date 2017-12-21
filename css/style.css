@@ -7,7 +7,8 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 
 .main{
   z-index: 2;
-  position: relative;
+  letter-spacing: .2px;
+
 }
 .sticker{
   z-index: 3;
@@ -29,11 +30,12 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 .overlay-1{
 font-family:"helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
-font-size: 40px;
-font-weight: bold;
+font-size: 18px;
+font-weight: normal;
 color: #010101;
 margin-right: 140px;
 margin-left: 50px;
+margin-top: 25px;
 }
 .overlay-2{
 font-family:"helvetica";
@@ -43,105 +45,114 @@ font-weight: bold;
 color: #010101;
 padding-right: 0px;
 padding-bottom: 1000px;
-padding-left: 1000px;
-transform: rotate(-90deg);
+padding-left: 300px;
+/* transform: rotate(-90deg); */
 position: fixed;
 left: 0px;
-top: 300px;
-bottom: 300px;
-right: 100px;
+top: 100px;
+bottom: 500px;
+right: 1200px;
 }
 
 .pushover{
   margin-left: 800px;
-  font-size: 18px;
+  font-size: 14px;
   position: relative;
 
 }
+.pushover2{
+  margin-left: 900px;
+  font-size: 14px;
+  position: relative;
+  letter-spacing: .2px;
+
+}
 .hover-line-one{
-  border-left: 20px solid black;
-  height: 80px;
-  position: fixed;
+  width: 70px;
+  height: 10px;
+  border: 2px solid black;
+  border-bottom: 10px solid black;
+  position: absolute;
+  left: 60px;
 }
 .hover-line-two{
-  border-left: 20px solid black;
-  height: 80px;
-  position: fixed;
-  top: 200px;
+  width: 70px;
+  height: 20px;
+  border: 2px solid black;
+  border-bottom: 2px solid black;
+  position: absolute;
+  left: 144px;
 }
 .hover-line-three{
-  border-left: 20px solid black;
-  height: 80px;
-  position: fixed;
-  top: 315px;
+  width: 70px;
+  height: 0px;
+  border: 2px solid black;
+  border-bottom: 20px solid black;
+  position: absolute;
+  left: 228px;
 }
 
+.imagerules{
+  margin-top: 40px;
+  margin-left: 50px;
+}
 a{
   color: inherit;
-
+  text-decoration: underline;
 }
 a:hover{
-  color: #ffffff;
-}
-
-/*alts*/
-
-.hover-line-one-alt{
-  border-left: 20px solid #ffffff;
-  height: 80px;
-  font-family: "helvetica";
-  font-weight: bold;
-  position: fixed;
-}
-.hover-line-two-alt{
-  border-left: 20px solid #ffffff;
-  height: 80px;
-  font-family: "helvetica";
-  font-weight: bold;
-  position: fixed;
-  top: 200px;
-}
-.hover-line-three-alt{
-  border-left: 20px solid #ffffff;
-  height: 80px;
-  font-family: "helvetica";
-  font-weight: bold;
-  position: fixed;
-  top: 315px;
-}
-.overlay-2alt{
-font-family: "helvetica";
-/*src: url(fonts/maisonneuemono.ttf);*/
-font-size: 20px;
-font-weight: bold;
-color: #000000;
-padding-right: 0px;
-padding-bottom: 1000px;
-padding-left: 1000px;
-transform: rotate(-90deg);
-position: fixed;
-left: 0px;
-top: 300px;
-bottom: 300px;
-right: 100px;
+  text-decoration: overline;
+  border: 0px;
+  width: inherit;
+  height: inherit;
+  border: inherit;
+  position: inherit;
+  left: inherit;
 }
 
 @media (max-width: 750px) {
   .overlay-1{
   font-family: "helvetica";
   /*src: url(fonts/maisonneuemono.ttf);*/
-  font-size: 54px;
+  font-size: 30px;
   font-weight: bold;
   color: #010101;
   margin-right: 140px;
-  margin-left: 50px;
+  margin-left: 20px;
   }
   .pushover{
-    margin-left: 800px;
-    font-size: 34px;
-    line-height: 68px;
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 36px;
+    line-height: 50px;
+    transform: rotate(90deg);
+
+    font-weight: normal;
     position: relative;
 
+  }
+  .hover-line-one{
+    width: 70px;
+    height: 60px;
+    border: 2px solid black;
+    position: fixed;
+    left: 60px;
+  }
+  .hover-line-two{
+    width: 70px;
+    height: 40px;
+    border: 2px solid black;
+    position: fixed;
+    left: 144px;
+  }
+  .hover-line-three{
+    width: 70px;
+    height: 50px;
+    border: 2px solid black;
+    position: fixed;
+    left: 228px;
   }
 
 
