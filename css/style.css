@@ -110,7 +110,7 @@ a:hover{
   left: inherit;
 }
 
-@media (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   .overlay-1{
   font-family: "helvetica";
   /*src: url(fonts/maisonneuemono.ttf);*/
