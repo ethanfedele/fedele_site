@@ -25,14 +25,14 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 
 }
 .bgyes{
-  background-color: #feeada;
+  background-color: #fff5ed;
 }
 .overlay-1{
 font-family:"helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 18px;
 font-weight: normal;
-color: #010101;
+color: #ed193a;
 margin-right: 140px;
 margin-left: 50px;
 margin-top: 25px;
@@ -42,7 +42,7 @@ font-family:"helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
 font-weight: bold;
-color: #010101;
+color: #ed193a;
 padding-right: 0px;
 padding-bottom: 1000px;
 padding-left: 300px;
