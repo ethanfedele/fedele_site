@@ -25,7 +25,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 
 }
 .bgyes{
-  background-color: #fff5ed;
+  background-color: #ffffff;
 }
 .overlay-1{
 font-family:"helvetica";
@@ -76,24 +76,24 @@ right: 1200px;
 .hover-line-one{
   width: 70px;
   height: 10px;
-  border: 2px solid black;
-  border-bottom: 10px solid black;
+  border: 2px solid #ed193a;
+  border-bottom: 10px solid #ed193a;
   position: absolute;
   left: 60px;
 }
 .hover-line-two{
   width: 70px;
   height: 20px;
-  border: 2px solid black;
-  border-bottom: 2px solid black;
+  border: 2px solid #ed193a;
+  border-bottom: 2px solid #ed193a;
   position: absolute;
   left: 144px;
 }
 .hover-line-three{
   width: 70px;
   height: 0px;
-  border: 2px solid black;
-  border-bottom: 20px solid black;
+  border: 2px solid #ed193a;
+  border-bottom: 20px solid #ed193a;
   position: absolute;
   left: 228px;
 }
@@ -166,15 +166,15 @@ a:hover{
     height: 20px;
     left: 30px;
     top: 150px;
-    border: 4px #ed193a;
-    border-bottom: 20px #ed193a;
+    border: 4px solid #ed193a;
+    border-bottom: 20px solid #ed193a;
   }
   .hover-line-two{
     width: 140px;
     height: 40px;
     left: 30px;
     top: 250px;
-    border: 4px #ed193a;
+    border: 4px solid #ed193a;
 
   }
   .hover-line-three{
@@ -182,8 +182,8 @@ a:hover{
     height: 00px;
     left: 30px;
     top: 360px;
-    border: 4px #ed193a;
-    border-bottom: 40px #ed193a;
+    border: 4px solid #ed193a;
+    border-bottom: 40px solid #ed193a;
     bottom: 100px;
   }
   .turnoffmobile{
