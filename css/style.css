@@ -39,19 +39,19 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
     src: url(fonts/universltstd-bold.otf);
 }
 .workbody{
-  font-family: "universltstd";
+  font-family: "universltstd, hevletica";
   font-size: 18px;
   margin-left: 50px;
   margin-top: 120px;
 }
 .contactbody{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   font-size: 18px;
   margin-left: 50px;
   margin-top: 120px;
 }
 .workdates{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   font-size: 22px;
   margin-left: 50px;
   margin-top: 120px;
@@ -128,14 +128,14 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   text-decoration: line-through;
 }
 .indivbody{
-  font-family: "universltstdbold";
+  font-family: "universltstdbold, helvetica";
   font-weight: bold;
   font-size: 22px;
   margin-left: 50px;
   margin-top: 120px;
 }
 .indivbodysmall{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   font-size: 18x;
   margin-left: 50px;
   margin-top: 0px;
@@ -153,7 +153,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   opacity: 1;
 }
 .indivbodysmall2{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   font-size: 18x;
   margin-left: 50px;
   margin-top: 50px;
@@ -176,7 +176,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   margin-bottom: 40px;
 }
 .overlay-1{
-font-family:"universltstd";
+font-family:"universltstd, helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 18px;
 font-weight: normal;
@@ -186,7 +186,7 @@ margin-left: 50px;
 margin-top: 25px;
 }
 .overlay-2{
-font-family:"universltstd";
+font-family:"universltstd, helvetica";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
 font-weight: bold;
@@ -291,14 +291,14 @@ a:visited{
   text-decoration: underline;
 }
 .foote{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   opacity: .6;
   font-size: 18px;
   margin-left: 50px;
   margin-top: 600px;
 }
 .footework{
-  font-family: "universltstd";
+  font-family: "universltstd, helvetica";
   opacity: .6;
   font-size: 18px;
   margin-left: 50px;
