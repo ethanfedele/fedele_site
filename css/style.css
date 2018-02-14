@@ -1,7 +1,7 @@
 @font-face
 {
 font-family: "Maison Neue";
-/*src: url('maisonneuemono.ttf')*/
+/*src: url('maisonneuemono.ttf)*/
 url("css/fonts/maisonneuemono.ttf") format("tff"),
 }
 
@@ -28,7 +28,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 }
 @font-face {
     font-family: universltstd;
-    src: url(fonts/universltstd.otf);
+    src: url(fonts/universltstd.ttf);
 }
 @font-face {
     font-family: agstd;
@@ -36,7 +36,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 }
 @font-face {
     font-family: universltstdbold;
-    src: url(fonts/universltstd-bold.otf);
+    src: url(fonts/universltstd-bold.ttf);
 }
 .workbody{
   font-family: "universltstd, hevletica";
