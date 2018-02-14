@@ -13,6 +13,78 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 .titlebounds{
   padding-bottom: 0px;
   font-weight: bold;
+  font-size: 32px;
+  font-family: dala-floda-bold;
+}
+.heads{
+  font-size: 34px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  position: sticky;
+}
+@font-face {
+    font-family: dala-floda-bold;
+    src: url(fonts/dala-floda-bold.ttf);
+}
+@font-face {
+    font-family: universltstd;
+    src: url(fonts/universltstd.otf);
+}
+@font-face {
+    font-family: agstd;
+    src: url(fonts/ag/berthold-akzidenz-grotesk-be-regular.otf);
+}
+@font-face {
+    font-family: universltstdbold;
+    src: url(fonts/universltstd-bold.otf);
+}
+.workbody{
+  font-family: "universltstd";
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.contactbody{
+  font-family: "universltstd";
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.workdates{
+  font-family: "universltstd";
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 120px;
+  transform: translate(400px,-680px);
+  opacity: .6;
+  letter-spacing: 0px;
+}
+.linespacer{
+  margin-top: 4px;
+}
+.workbody a{
+  opacity: 1;
+  padding-right: 40px;
+  text-decoration: none;
+
+}
+.workbody a:hover{
+  opacity: 1;
+  text-decoration: underline;
+  padding-right: 40px;
+
+
+=
+}
+.contactbody a{
+  opacity: .6;
+  padding-right: 40px;
+  text-decoration: none;
+}
+.contactbody a:visited{
+  opacity: 1;
+  text-decoration: underline;
+  padding-right: 40px;
 }
 .sticker{
   z-index: 3;
@@ -31,8 +103,80 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
 .bgyes{
   background-color: #ffffff;
 }
+.backgroundimage{
+  background-image: url(thework/totebag-comma.png);
+  background-repeat: no-repeat;
+  background-size: 800px;
+  position: relative;
+  z-index: -1;
+  max-width: 600px;
+  max-height: 400px;
+}
+.imagec{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 0px;
+}
+
+.blastboy{
+  transform: translate(0,-200);
+  position: fixed;
+  margin-left: -30px;
+  z-index: -1;
+}
+.nolink{
+  text-decoration: line-through;
+}
+.indivbody{
+  font-family: "universltstdbold";
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-top: 120px;
+}
+.indivbodysmall{
+  font-family: "universltstd";
+  font-size: 18x;
+  margin-left: 50px;
+  margin-top: 0px;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+.inprog{
+  text-decoration: line-through;
+  opacity: .6;
+}
+.indivbodysmall a{
+  opacity: .6
+}
+.indivbodysmall a:hover{
+  opacity: 1;
+}
+.indivbodysmall2{
+  font-family: "universltstd";
+  font-size: 18x;
+  margin-left: 50px;
+  margin-top: 50px;
+  opacity: 1;
+  margin-bottom: 50px;
+}
+.indivbodysmall2 a{
+  opacity: .6
+}
+.indivbodysmall2 a:hover{
+  opacity: 1;
+}
+.lineblock{
+  border-bottom: 1.3px solid black;
+  opacity: .2;
+  width: 1130px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
 .overlay-1{
-font-family:"helvetica";
+font-family:"universltstd";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 18px;
 font-weight: normal;
@@ -42,7 +186,7 @@ margin-left: 50px;
 margin-top: 25px;
 }
 .overlay-2{
-font-family:"helvetica";
+font-family:"universltstd";
 /*src: url(fonts/maisonneuemono.ttf);*/
 font-size: 20px;
 font-weight: bold;
@@ -59,10 +203,19 @@ right: 1200px;
 }
 
 .pushover{
+  transform: translate(0,-32px);
   margin-left: 800px;
-  font-size: 14px;
+  font-size: 16px;
   position: relative;
+}
 
+.pushover a{
+  opacity: .6;
+  padding-right: 40px;
+}
+.pushover a:visited{
+  opacity: 1;
+  padding-right: 40px;
 }
 .pushover2{
   margin-left: 900px;
@@ -108,16 +261,48 @@ right: 1200px;
 }
 a{
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+  opacity: 1;
 }
+
 a:hover{
-  text-decoration: overline;
+  text-decoration: none;
   border: 0px;
+  opacity: 1;
   width: inherit;
   height: inherit;
   border: inherit;
   position: inherit;
   left: inherit;
+}
+a:visited{
+  text-decoration: none;
+  border: 0px;
+  opacity: 1;
+  width: inherit;
+  height: inherit;
+  border: inherit;
+  position: inherit;
+  left: inherit;
+}
+
+.email{
+  opacity: 1;
+  text-decoration: underline;
+}
+.foote{
+  font-family: "universltstd";
+  opacity: .6;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 600px;
+}
+.footework{
+  font-family: "universltstd";
+  opacity: .6;
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 700px) {
@@ -197,4 +382,28 @@ a:hover{
     margin-top: 40px;
     margin-left: 20px;
   }
+}
+
+
+
+/*  Rows for Work Page */
+
+.col1{
+margin-bottom: 35px;
+}
+
+.col2{
+  transform: translate(290px,-872px);
+  margin-bottom: 35px;
+
+}
+
+.col3{
+  transform: translate(585px,-1744px);
+  margin-bottom: 35px;
+}
+
+.col4{
+  transform: translate(875px, -2616px);
+  margin-bottom: 35px;
 }
