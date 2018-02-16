@@ -74,7 +74,7 @@ url("css/fonts/maisonneuemono.ttf") format("tff"),
   padding-right: 40px;
 
 
-=
+
 }
 .contactbody a{
   opacity: .6;
@@ -202,12 +202,7 @@ bottom: 500px;
 right: 1200px;
 }
 
-.pushover{
-  transform: translate(0,-32px);
-  margin-left: 800px;
-  font-size: 16px;
-  position: relative;
-}
+
 
 .pushover a{
   opacity: .6;
@@ -305,29 +300,71 @@ a:visited{
   margin-top: 0px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) (min-width: 50px) {
+
+  .pushover{
+    transform: translate(0,0);
+    margin-left: 100px;
+    padding-top: 0px;
+    font-size: 16px;
+    position: relative;
+  }
+  .col1{
+    margin-bottom: 100px;
+    font-size: 12px;
+
+  }
+  .col2{
+    transform: translate(0,0);
+    margin-bottom: 100px;
+    font-size: 12px;
+  }
+  .col3{
+    transform: translate(0,0);
+    margin-bottom: 100px;
+    font-size: 12px;
+  }
+  .col4{
+    transform: translate(0,0);
+    margin-bottom: 100px;
+    font-size: 12px;
+  }
+
 }
 
 
 
 /*  Rows for Work Page */
+@media screen and (min-width: 701px){
+
+  .pushover{
+    transform: translate(0,-32px);
+    margin-left: 800px;
+    font-size: 16px;
+    position: relative;
+  }
 
 .col1{
 margin-bottom: 35px;
+font-size: inherit;
 }
 
 .col2{
   transform: translate(290px,-872px);
   margin-bottom: 35px;
+  font-size: inherit;
 
 }
 
 .col3{
   transform: translate(585px,-1744px);
   margin-bottom: 35px;
+  font-size: inherit;
 }
 
 .col4{
   transform: translate(875px, -2616px);
   margin-bottom: 35px;
+  font-size: inherit;
+}
 }
