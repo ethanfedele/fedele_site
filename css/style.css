@@ -1,4 +1,90 @@
-@media only screen and (max-width: 768px) {
+
+
+/* older phones */
+
+@media only screen and (max-width: 640px) {
+.heading{
+    position: fixed;
+}
+.title{
+  font-family: Helvetica;
+  font-size: 14px;
+  opacity: 100;
+  color: white;
+  padding: 15px;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.line2{
+  font-family: Helvetica;
+  font-size: 14px;
+  opacity: 100;
+  color: white;
+  margin-top: -15px;
+  padding-left: 15px;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.info{
+  font-family: Helvetica;
+  font-size: 14px;
+  opacity: 100;
+  color: white;
+  transform: translate(100px, -30px);
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.background-img1{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(1.gif);
+  /* background-repeat: no-repeat;
+  background-position: left top; */
+}
+.background-img2{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(2.png)
+}
+.background-img3{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(3.png)
+}
+.background-img4{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(4.jpg)
+}
+.background-img5{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(5.gif)
+}
+.background-img6{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(6.gif)
+}
+}
+
+
+
+
+
+
+/* new / wider phones  */
+
+@media only screen and (max-width: 768px){
 .heading{
     position: fixed;
 }
