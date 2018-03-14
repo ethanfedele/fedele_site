@@ -77,6 +77,12 @@
   height:700px;
   background-image: url(6.gif)
 }
+.background-img7{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(7.png)
+}
 }
 
 
@@ -158,6 +164,12 @@
   width: 1270px;
   height:700px;
   background-image: url(6.gif)
+}
+.background-img7{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(7.png)
 }
 }
 
@@ -241,4 +253,11 @@
   height:700px;
   background-image: url(6.gif)
 }
+.background-img7{
+  margin:-10px;
+  width: 1270px;
+  height:700px;
+  background-image: url(7.png)
+}
+
 }
