@@ -1,3 +1,13 @@
+/* test classes for video test within indexdupe and infodupe */
+
+.video{
+  position: fixed;
+  z-index: -1000;
+}
+
+
+
+
 
 
 /* older phones */
